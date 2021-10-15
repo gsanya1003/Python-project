@@ -4,7 +4,10 @@ def add(K, N, lo, hi, val):
 	K[lo] += val 
 	if (hi != N - 1): 
 		K[hi + 1] -= val 
-
+		
+def sub(a,b):
+	result = a-b
+	return result
 
 def updateArray(K, N): 
 
